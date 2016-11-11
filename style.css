@@ -1,0 +1,56 @@
+@import url ('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#name {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+address {
+  color:red;
+  font-size: 20px;
+}
+
+a{
+  color:green;
+}
+a:visited{
+color:orange;
+}
+a:hover{
+  color:purple;
+}
+a:active{
+  color:blue;
+}
+
+
+#container {
+  max-width: 960px;
+  margin:0 auto;
+  border-style: solid;
+  border-color:black;
+  border-width: medium;
+  padding: 20px;
+  background-color: gray;
+
+}
+
+body {
+  font-size: 16px;
+  font-family: helvetica;
+
+}
+
+h2 {
+  font-size:35px;
+  font-family: 'Shrikhand', cursive;
+}
+
+#profile {
+  border: 2px solid black;
+  position: absolute;
+  height: 200px;
+  left: 915px;
+  top: 25px;
+  float: right;
+}
