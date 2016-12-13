@@ -1,56 +1,197 @@
-@import url ('https://fonts.googleapis.com/css?family=Open+Sans');
-
-#name {
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Open Sans', sans-serif;
+html {
+  background-color: black;
 }
-address {
-  color:red;
+
+header {
+  font-size: 80pt;
+  font-family: 'Playfair Display', helvetica;
+  color: white;
+  padding-left: 90px;
+}
+
+h1 {
+font-size: 15pt;
+font-family: 'Playfair Display', helvetica;
+color: white;
+padding-left: 90px;
+padding-top: 0;
+padding-bottom: 25px;
+}
+
+
+span {
+  font-size: 18pt;
+  color: blue;
+  padding-top: 10px;
+}
+
+p {
+  color: white;
+  padding-left: 25px;
+}
+
+#homebutton {
+  font-family: 'Playfair Display',helvetica;
   font-size: 20px;
+  padding-left: 90px;
+}
+#AbouttheAuthor {
+  padding-left: 25px;
+  padding-top: 20px;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-top-color: white;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 }
 
-a{
-  color:green;
+#AbouttheAuthor a:visited {
+  color: white;
 }
-a:visited{
-color:orange;
+#AbouttheAuthor a:default {
+  color: white;
 }
-a:hover{
-  color:purple;
+#AbouttheAuthor a:hover {
+  color: #053091;
 }
-a:active{
-  color:blue;
+
+img {
+  height: 305px;
+  width: 330px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  margin-bottom: 30px;
 }
+
+
+#covers ul li {
+display: inline;
+font-size: 20px;
+padding-left: 50px;
+position: relative;
+float: bottom;
+margin-top: 100;
+}
+
+#M {
+  padding-left: 75px;
+  font-size: 40px;
+
+}
+#T {
+  padding-left: 100px;
+  font-size:40px;
+
+}
+
+#A {
+  padding-left: 60px;
+  font-size:40px;
+}
+nav ul li {
+  display: inline;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Playfair Display';
+}
+
+a:default {
+  color: #123789;
+}
+a:visited {
+  color: #053091;
+}
+a:hover {
+  color: #053001;
+}
+a:active {
+  color: white;
+}
+
+#YS {
+  margin-top: 15px;
+
+}
+
+#AuthorTitle {
+  font-size: 60px;
+  font-family: 'Playfair Display';
+  float:none;
+  padding-left: 0px;
+}
+
+#bio {
+  font-family: 'Playfair Display';
+  font-size: 19px;
+  font-weight: bold;
+  border-width: thin;
+  border-color: white;
+  border-style: solid;
+  width: 550px;
+  float: right;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-right: 25px;
+}
+
+#connect {
+display: inline;
+text-align: center;
+font-size: 20px;
+font-weight: bolder;
+font-family: 'Playfair Display';
+float: left;
+padding-left: 1000px;
+}
+
 
 
 #container {
   max-width: 960px;
-  margin:0 auto;
-  border-style: solid;
-  border-color:black;
-  border-width: medium;
-  padding: 20px;
-  background-color: gray;
-
+  margin: 0 auto;
+  height: 100%;
 }
 
-body {
-  font-size: 16px;
-  font-family: helvetica;
-
+#MarineGallery ul li {
+  display: inline;
+  height: 305px;
+  width: 330px;
+  padding-left: 50px;
+  image-resolution: snap;
+}
+#marinetitle {
+text-align: left;
+font-family: 'Playfair Display';
 }
 
-h2 {
-  font-size:35px;
-  font-family: 'Shrikhand', cursive;
+#TerrestrialGallery ul li {
+  display: inline;
+  height: 305px;
+  width: 330px;
+  padding-left: 50px;
+  image-resolution: snap;
+}
+#terrestrialtitle {
+text-align: left;
+font-family: 'Playfair Display';
 }
 
-#profile {
-  border: 2px solid black;
-  position: absolute;
-  height: 200px;
-  left: 915px;
-  top: 25px;
-  float: right;
+#amphibioustitle {
+text-align: left;
+font-family: 'Playfair Display';
+}
+
+#AmphibiousGallery ul li {
+  display: inline;
+  height: 305px;
+  width: 330px;
+  padding-left: 50px;
+  image-resolution: snap;
+}
+
+em {
+  padding-left: 30px;
 }
